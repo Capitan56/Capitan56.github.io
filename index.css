@@ -37,11 +37,6 @@ body {
 	grid-template-columns: 50% 50%;
 	grid-template-rows: : 50% 50%;
 }
-.resheto{
-	position: absolute;
-	left:953px;
-	top:890px;
-}
 .ramka{
 	position: relative;
         left: 20px;
