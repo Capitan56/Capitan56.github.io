@@ -39,9 +39,10 @@ body {
 }
 .ramka{
 	position: relative;
-        left: 20px;
-        top: 20px;
+    left: 20px;
+    top: 20px;
 }
+
 .text{
 	position: relative;
 	top: -400px;
@@ -277,8 +278,8 @@ color: #FFFFFF;
 }
 .text_7{
 	position: relative;
-left: 61vh;
-top: 30px;
+    left: 30%;
+    top: 30px;
 
 font-family: Roboto;
 font-style: normal;
@@ -383,7 +384,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .b5{
 
 position: relative;
-right: -500px;
+left: 315px;
 top: 14px;
 
 
@@ -403,7 +404,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 	color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
-        
+	left:308px;
 }
 
 .data_2{
@@ -486,7 +487,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .p5{
 
 position: relative;
-right: -670px;
+left: 495px;
 top: 14px;
 
 
@@ -506,6 +507,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 	color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
+	left:488px;
 }
 
 .data_3{
@@ -588,7 +590,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .g5{
 
 position: relative;
-right: -360x;
+left: 491px;
 top: 14px;
 
 text-decoration: none;
@@ -607,6 +609,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
+	left:484px;
 }
 .coffe{
 	display: grid;
@@ -967,4 +970,6 @@ line-height: 15px;
 
 color: #FFFFFF;
 }
+
+
 
