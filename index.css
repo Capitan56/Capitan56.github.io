@@ -486,7 +486,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .p5{
 
 position: relative;
-right: -730px;
+right: -720px;
 top: 14px;
 
 
@@ -506,7 +506,6 @@ font-feature-settings: 'pnum' on, 'onum' on;
 	color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
-	left:488px;
 }
 
 .data_3{
@@ -589,7 +588,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .g5{
 
 position: relative;
-right: -750px;
+right: -760x;
 top: 14px;
 
 text-decoration: none;
