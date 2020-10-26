@@ -45,21 +45,12 @@ body {
 }
 .ramka{
 	position: relative;
-	background:url(./assets/ramka.svg) no-repeat center; 
-    height: 42vh;
-    left: 28px;
-    top: 30px;
-}
-.logo_1{
-	position: relative;
-    height: 22vh;
-    left: 240px;
-    top: -350px;
-
+        left: 20px;
+        top: 20px;
 }
 .text{
 	position: relative;
-	top: -600px;
+	top: -400px;
 	padding-top: 230px;
 	padding-right: 130px;
 	padding-left: 130px;
@@ -127,7 +118,7 @@ body {
     width: 50%;
     height: 22px;
     left: 108px;
-    top: -230px;
+    top: -150px;
 
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -152,7 +143,7 @@ body {
 .text-item4{
 	position: relative;
 	height: 50%;
-	top: -330px;
+	top: -240px;
 	background-color: white;
 }
 
