@@ -383,7 +383,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .b5{
 
 position: relative;
-left: 315px;
+right: -440px;
 top: 14px;
 
 
@@ -403,7 +403,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 	color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
-	left:308px;
+        
 }
 
 .data_2{
@@ -486,7 +486,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .p5{
 
 position: relative;
-left: 495px;
+right: -620px;
 top: 14px;
 
 
@@ -589,7 +589,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .g5{
 
 position: relative;
-left: 491px;
+right: -620px;
 top: 14px;
 
 text-decoration: none;
@@ -608,7 +608,6 @@ font-feature-settings: 'pnum' on, 'onum' on;
 color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
-	left:484px;
 }
 .coffe{
 	display: grid;
