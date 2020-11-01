@@ -56,10 +56,16 @@ body {
 }
 .item{
 	height:225px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	border: 1px solid #595656;
 }
 .item2{
 	height:225px;
 	background:#FFFFFF;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	border: 1px solid #595656;
 }
 .resheto{
 	position: absolute;
@@ -254,7 +260,7 @@ transition: all 1s ease 0s;
 }
 .img_6{
 	position:relative;
-    top: -255px;
+    top: -252px;
     left: 20px;
 }
 .line{
@@ -310,7 +316,7 @@ color: #000000;
 }
 .text_8{
 	position: relative;
-left: 90px;
+left: 5%;
 top: 30px;
 
 font-family: Roboto;
@@ -351,7 +357,7 @@ color: #000000;
 .data_logo_1{
 	position: relative;
 	height: 80px;
-	top:47px;
+	top:15px;
 	left: 275px;
 }
 
@@ -374,7 +380,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .data_logo_2{
 	position: relative;
 	height: 80px;
-	top:47px;
+	top:15px;
 	left: 375px;
 }
 .b4{
@@ -401,12 +407,12 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .b5{
 
 position: relative;
-left: 315px;
+left: 25%;
 top: 14px;
 
 
 text-decoration: none;
-color: #000000;
+color: #FF0101;
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -421,7 +427,6 @@ font-feature-settings: 'pnum' on, 'onum' on;
 	color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
-	left:308px;
 }
 
 .data_2{
@@ -454,7 +459,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .data_logo_1_1{
 	position: relative;
 	height: 80px;
-	top:47px;
+	top:15px;
 	left: 275px;
 }
 
@@ -477,7 +482,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .data_logo_2_2{
 	position: relative;
 	height: 80px;
-	top:47px;
+	top:15px;
 	left: 372px;
 }
 .p4{
@@ -504,12 +509,12 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .p5{
 
 position: relative;
-left: 495px;
+left: 34%;
 top: 14px;
 
 
 text-decoration: none;
-color: #000000;
+color: #FF0101;
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -524,7 +529,6 @@ font-feature-settings: 'pnum' on, 'onum' on;
 	color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
-	left:488px;
 }
 
 .data_3{
@@ -557,7 +561,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .data_logo_1_1_1{
 	position: relative;
 	height: 80px;
-	top:47px;
+	top:15px;
 	left: 275px;
 }
 
@@ -580,7 +584,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .data_logo_2_2_2{
 	position: relative;
 	height: 80px;
-	top:47px;
+	top:15px;
 	left: 375px;
 }
 .g4{
@@ -607,11 +611,11 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .g5{
 
 position: relative;
-left: 491px;
+left: 35%;
 top: 14px;
 
 text-decoration: none;
-color: #000000;
+color: #FF0101;
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -626,7 +630,6 @@ font-feature-settings: 'pnum' on, 'onum' on;
 color: #FFFFFF;
 	background: #ff3125;
 	padding: 20px 6px;
-	left:484px;
 }
 .coffe{
 	display: grid;
@@ -997,7 +1000,7 @@ color: #FFFFFF;
 		font-size: 15px;
 	}
 	.intro{
-        height:52vh;
+        height:50vh;
     }
     .logotext{
     height:200px;
@@ -1027,6 +1030,35 @@ color: #FFFFFF;
     .text4{
      font-size: 15px;
     }
+    .coffe_info_1{
+    display:none;
+    }
+    .coffe_img3{
+    display:none;
+    }
+    .coffe_img4{
+    display:none;
+    }
+    .text_6{
+    left:16%;
+    font-size: 25px;
+    }
+    .text_7{
+    font-size: 40px;
+    left:11%;
+    }
+    .text_8{
+    font-size: 40px;
 
+    }
 
+}
+
+@media screen and (max-width: 1600px) {
+	.container_1{
+	display:none;
+}
+    .GPS{
+    display:none;
+    }
 }
