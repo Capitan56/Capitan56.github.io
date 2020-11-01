@@ -407,7 +407,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .b5{
 
 position: relative;
-left: 30%;
+left: 25%;
 top: 14px;
 
 
@@ -509,7 +509,7 @@ font-feature-settings: 'pnum' on, 'onum' on;
 .p5{
 
 position: relative;
-left: 36%;
+left: 34%;
 top: 14px;
 
 
@@ -906,8 +906,8 @@ color: #ffffff;
 }
 .text_footer{
 	position: relative;
-    left: 276px;
-    top: 18px;
+    left: 18%;
+    top: 30%;
 
 font-family: Roboto;
 font-style: normal;
@@ -964,7 +964,7 @@ color: #FFFFFF;
 
 .text_footer1{
 	position: relative;
-left: 9px;
+left: 3%;
 top: 15px;
 
 font-family: Roboto;
@@ -979,7 +979,7 @@ color: #FFFFFF;
 }
 .text_footer2{
 	position: relative;
-left: 959px;
+left: 50%;
 top: 15px;
 
 font-family: Roboto;
@@ -1049,16 +1049,102 @@ color: #FFFFFF;
     }
     .text_8{
     font-size: 40px;
-
     }
-
+    .text_footer1{
+    font-size: 20px;
+    left:25%;
+    }
+    .text_footer2{
+    display:none;
+    }
+    .b4{
+    display:none;
+    }
+    .p4{
+    display:none;
+    }
+    .g4{
+    display:none;
+    }
+    .b1{
+    left: 90px;
+    font-size: 50px;
+    }
+    .p1{
+    left: 90px;
+    font-size: 50px;
+    }
+    .g1{
+    left: 90px;
+    font-size: 50px;
+    }
+    .b2{
+    left: 130px;
+    font-size: 25px;
+    }
+    .p2{
+    font-size: 25px;
+    left: 130px;
+    }
+    .g2{
+    left: 130px;
+    font-size: 25px;
+    }
+    .data_logo_2{
+    display:none;
+    }
+    .data_logo_2_2{
+    display:none;
+    }
+    .data_logo_2_2_2{
+    display:none;
+    }
+     .data_logo_1{
+    left: 180px;
+    height: 60px;
+	top:17px;
+    }
+    .data_logo_1_1{
+    left: 180px;
+    height: 60px;
+	top:17px;
+    }
+    .data_logo_1_1_1{
+    left: 180px;
+    height: 60px;
+	top:17px;
+    }
+    .b3{
+    font-size: 25px;
+    left: 210px;
+    top: 20px;
+    }
+    .p3{
+    font-size: 25px;
+    left: 210px;
+    top: 20px;
+    }
+    .g3{
+    font-size: 25px;
+    left: 212px;
+    top: 20px;
+    }
+    .b5{
+    left:32%;
+    font-size: 18px;
+    }
+    .p5{
+    left:32%;
+    font-size: 18px;
+    }
+    .g5{
+    left:32%;
+    font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1600px) {
 	.container_1{
 	display:none;
 }
-    .GPS{
-    display:none;
-    }
 }
