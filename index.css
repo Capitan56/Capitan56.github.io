@@ -961,8 +961,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 880px) {
-	body {
-	margin: 0;
+	body, html {
 	overflow-x: hidden;
 }
 
@@ -1156,8 +1155,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1800px) {
-	body {
-	margin: 0;
+	body,html {
 	overflow-x: hidden;
 }
 	.container_1{
@@ -1170,8 +1168,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1440px) {
-	body {
-	margin: 0;
+	body, html {
 	overflow-x: hidden;
 }
 
@@ -1186,8 +1183,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1190px) {
-	body {
-	margin: 0;
+	body, html {
 	overflow-x: hidden;
 }
 .coffe_text_9{  
@@ -1222,8 +1218,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 935px) {
-	body {
-	margin: 0;
+	body, html {
 	overflow-x: hidden;
 }
 .coffe_text_9{  
@@ -1248,8 +1243,7 @@ color: #FFFFFF;
 
 }
 @media screen and (max-width: 520px) {
-	body {
-	margin: 0;
+	body, html {
 	overflow-x: hidden;
 }
  .text1{
