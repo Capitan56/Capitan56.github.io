@@ -131,15 +131,15 @@ body {
 	transform: translateY(10px);
 }
 .text3{
-	position: relative;
-    width: 70%;
-    margin-left: 18%;
-    top: 36%;
+    position: absolute;
+    left: 18%;
+    top: 32%;
 
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.6vw;
+    font-height: 1vw;
     display: flex;
     align-items: center;
     text-align: center;
