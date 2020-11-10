@@ -961,6 +961,10 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 880px) {
+	body {
+	margin: 0;
+	overflow-x: hidden;
+}
 
     .text_7{
     font-size: 3.5vw;
@@ -1152,6 +1156,10 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1800px) {
+	body {
+	margin: 0;
+	overflow-x: hidden;
+}
 	.container_1{
 	display:none;
     }
@@ -1162,6 +1170,10 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1440px) {
+	body {
+	margin: 0;
+	overflow-x: hidden;
+}
 
 .coffe_text_9{  
     top: -9%;
@@ -1174,6 +1186,10 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1190px) {
+	body {
+	margin: 0;
+	overflow-x: hidden;
+}
 .coffe_text_9{  
     top: -14%;
 }
@@ -1206,6 +1222,10 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 935px) {
+	body {
+	margin: 0;
+	overflow-x: hidden;
+}
 .coffe_text_9{  
     top: -21%;
 }
@@ -1228,6 +1248,10 @@ color: #FFFFFF;
 
 }
 @media screen and (max-width: 520px) {
+	body {
+	margin: 0;
+	overflow-x: hidden;
+}
  .text1{
   font-size: 1.3vw;
   line-height: 1.7vw;
