@@ -980,32 +980,32 @@ color: #FFFFFF;
     display:none;
     }
     .b1{
-    font-size: 4.8vw;
-    left: 80%;
+    font-size: 5.2vw;
+    left: 70%;
 
     }
     .p1{
-    font-size: 4.8vw;
-    left: 80%;
+    font-size: 5.2vw;
+    left: 70%;
 
     }
     .g1{
-    font-size: 4.8vw;
-    left: 80%;
+    font-size: 5.2vw;
+    left: 70%;
 
     }
     .b2{
-    font-size: 2.5vw;
+    font-size: 2.9vw;
     line-height: 1vw;
     left: 97%;
     }
     .p2{
-    font-size: 2.5vw;
+    font-size: 2.9vw;
     line-height: 1vw;
     left: 97%;
     }
     .g2{
-    font-size: 2.5vw;
+    font-size: 2.9vw;
     line-height: 1vw;
     left: 97%;
     }
@@ -1019,46 +1019,54 @@ color: #FFFFFF;
     display:none;
     }
      .data_logo_1{
-    height: 3.9vw;
+    height: 4.4vw;
 	width:auto;
 	left: 137%;
     }
     .data_logo_1_1{
-    height: 3.9vw;
+    height: 4.4vw;
 	width:auto;
 	left: 137%;
     }
     .data_logo_1_1_1{
-    height: 3.9vw;
+    height: 4.4vw;
 	width:auto;
 	left: 137%;
     }
     .b3{
-    font-size: 2.1vw;
+    font-size: 2.6vw;
     line-height: 1vw;
     left: 165%;
     }
     .p3{
-    font-size: 2.1vw;
+    font-size: 2.6vw;
     line-height: 1vw;
     left: 165%;
     }
     .g3{
-     font-size: 2.1vw;
+     font-size: 2.6vw;
      line-height: 1vw;
      left: 165%;
      }
      .b5{
      position: relative;
      left: 415%;
+     font-size: 1.8vw;
      }
      .p5{
      position: relative;
      left: 415%;
+     font-size: 1.8vw;
      }
      .g5{
      position: relative;
      left: 415%;
+     font-size: 1.8vw;
+     }
+     .coffe_info{
+     display:grid;
+     grid-template-columns: 100% 0%;
+
      }
      .coffe_info{
      display:grid;
