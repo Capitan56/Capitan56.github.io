@@ -131,7 +131,7 @@ body {
 	transform: translateY(10px);
 }
 .text3{
-    position: absolute;
+    position: relative;
     left: 18%;
     top: 32%;
 
