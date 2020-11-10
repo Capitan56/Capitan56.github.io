@@ -139,7 +139,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 1.6vw;
-    font-height: 1vw;
+    line-height: 1vw;
     display: flex;
     align-items: center;
     text-align: center;
