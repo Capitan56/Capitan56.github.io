@@ -132,14 +132,14 @@ body {
 }
 .text3{
     position: relative;
-    left: 18%;
-    top: 32%;
+    margin-left: 30%;
+    top: 40%;
 
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.6vw;
-    line-height: 3vw;
+    font-size: 1.7vw;
+    line-height: 2vw;
     display: flex;
     align-items: center;
     text-align: center;
