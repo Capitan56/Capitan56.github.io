@@ -29,23 +29,25 @@ body {
 	height: 45vh;
 	width: auto;
 }
-.item{
-	background-color: #3F3F3F;
-	color: white;
-	/*display: grid;*/
-	/*grid-template-columns: 50% 50%;*/
-	/*grid-template-rows: : 50% 50%;*/
-}
-.textlogo{
+.text_logo{
 	height: 24vw;
 }
-.textlogo1{
+.info_group{
 	height: 24vw;
 	box-sizing: border-box;
 	-moz-box-sizing:border-box;
 	border: 2px solid #C7C1C1;
 }
-.ramkalogo{
+.text_info_group{
+    top:40%;
+	padding-right: 7%;
+	padding-left: 7%;
+	font-size: 1.4vw;
+	text-align: center;
+    font-family: 'Piazzolla', serif;
+
+}
+.logo_info_group{
     height: 8vw;
     width:auto;
     margin-top: 6%;
@@ -54,11 +56,13 @@ body {
     display: flex;
     justify-content: center;
 }
-.item{
+.item_navigation{
 	height:12vw;
 	box-sizing: border-box;
 	-moz-box-sizing:border-box;
 	border: 1px solid #595656;
+	background-color: #3F3F3F;
+	color: white;
 }
 .item2{
 	height:12vw;
@@ -68,16 +72,7 @@ body {
 	border: 1px solid #595656;
 }
 
-.text{
-    top:40%;
-	padding-right: 7%;
-	padding-left: 7%;
-	font-size: 1.4vw;
-	text-align: center;
-    font-family: 'Piazzolla', serif;
-
-}
-.text1{
+.text_concert{
 	position: relative;
 	margin-left: 17%;
     top: 40%;
@@ -98,13 +93,13 @@ body {
     mix-blend-mode: normal;
     opacity: 0.9;
 }
-.text1:hover{
+.text_concert:hover{
     color: #FFFFFF;
     text-decoration: none;
 	transform: translateY(10px);
 }
 
-.text2{
+.text_group{
 	position: relative;
     margin-left: 29%;
     top: 40%;
@@ -125,45 +120,37 @@ body {
 
     opacity: 0.9;
 }
-.text2:hover{
+.text_group:hover{
     color: #FFFFFF;
     text-decoration: none;
 	transform: translateY(10px);
 }
-.text3{
-    position: relative;
+.text_merch{
+	position: relative;
     margin-left: 30%;
-    top: 40%;
+    top:42%;
 
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.7vw;
     line-height: 2vw;
-    display: flex;
+    display:flex;
     align-items: center;
     text-align: center;
     transition: all 1s ease 0s;
 
     color: #FFFFFF;
       letter-spacing: 0.12em;
-
-    opacity: 0.9;
+        opacity: 0.9;
 
 }
-.text3:hover{
+.text_merch:hover{
     color: #FFFFFF;
     text-decoration: none;
 	transform: translateY(10px);
 }
-.text-item4{
-	position: relative;
-	height: 50%;
-	top: -240px;
-	background-color: white;
-}
-
-.text4{
+.text_help{
     position: relative;
     margin-left: 26%;
     top: 42%;
@@ -180,7 +167,7 @@ body {
     text-decoration: none;
     color: #000000;
  }
- .text4:hover{
+ .text_help:hover{
     text-decoration: none;
     color: #000000;
 	transform: translateY(10px);
@@ -228,7 +215,7 @@ box-sizing: border-box;
  height: 825px;
  width: 668px;
 }
-.text5{
+.text_tour{
 	position: relative;
     left: 223px;
     top:90px;
@@ -251,8 +238,7 @@ transition: all 1s ease 0s;
 	top:95px;
 
 }
-
-.ramka_1{
+.ramka_img{
 	position: relative;
     top: 15px;
     left: 15px;
@@ -262,18 +248,13 @@ transition: all 1s ease 0s;
     top: -252px;
     left: 20px;
 }
-.line{
-	background: #3F3F3F;
-	height: 150px;
-	display: none;
-}
-.line_1{
+.line_title_group{
 	background: #3F3F3F;
 	height: 5vw;
 	displey:flex;
 }
 
-.text_6 {
+.title_group {
     position:relative;
     top: 38%;
     text-align: center;
@@ -292,11 +273,11 @@ color: #FFFFFF;
 .b{
 	color: #ff3125;
 }
-.line_2{
+.line_title_concerts{
 	height: 10vw;
 	width:auto;
 }
-.text_7{
+.title_concerts{
 	position: relative;
 	top:30%;
     text-align: center;
@@ -307,11 +288,11 @@ font-size: 3vw;
 line-height: 2vw;
 color: #000000;
 }
-.line_3{
+.line_title_month{
 	height: 7vw;
 	width:auto;
 }
-.text_8{
+.title_month{
 	position: relative;
 	left: 5%;
 
@@ -324,7 +305,7 @@ font-size: 2.5vw;
 line-height: 2vw;
 color: #000000;
 }
-.data_1{
+.data{
 	height: 10vw;
 	width:auto;
 }
@@ -402,164 +383,6 @@ font-weight: bold;
 	padding: 15% 6%;
 }
 
-.data_2{
-   height: 10vw;
-   width:auto;
-}
-
-.p1{
-	position: relative; 
-	font-size: 3.5vw;
-	left: 50%;
-	top: 20%;
-}
-
-.p2{
-	position: relative; 
-    left: 67%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 1.8vw;
-    line-height: 1vw;
-	
-}
-.data_logo_1_1{
-	position: relative;
-	height: 4vw;
-	width:auto;
-	left: 102%;
-}
-
-.p3{
-position: relative;
-left: 115%;
-
-font-family: Roboto;
-font-style: normal;
-font-size: 1.8vw;
-line-height: 1vw;
-	
-}
-.data_logo_2_2{
-	position: relative;
-	height: 4vw;
-	width:auto;
-	left: 59%;
-}
-.p4{
-position: relative;
-left: 64%;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 1.8vw;
-line-height: 1vw;
-}
-.data_logo_3_3{
-	position: relative;
-	height: 80px;
-	top:45px;
-	left: 640px;
-}
-.p5{
-position: relative;
-left: 330%;
-border: 0.3vw solid red;
-padding: 15% 6%;
-
-
-color: #FF0101;
-font-family: Roboto;
-font-style: normal;
-font-size: 1.5vw;
-line-height: 1vw;
-font-weight: bold;
-}
-.p5:hover {
-text-decoration: none;
-	color: #FFFFFF;
-	background: #ff3125;
-	padding: 15% 6%;
-}
-
-.data_3{
-    height: 10vw;
-	width:auto;
-}
-
-.g1{
-	position: relative; 
-	font-size: 3.5vw;
-	left: 50%;
-	top: 20%;
-}
-
-.g2{
-	position: relative; 
-    left: 67%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 1.8vw;
-    line-height: 1vw;
-}
-.data_logo_1_1_1{
-	position: relative;
-	height: 4vw;
-	width:auto;
-	left: 102%;
-}
-
-.g3{
-position: relative;
-left: 115%;
-
-font-family: Roboto;
-font-style: normal;
-font-size: 1.8vw;
-line-height: 1vw;
-	
-}
-.data_logo_2_2_2{
-	position: relative;
-	height: 4vw;
-	width:auto;
-	left: 59%;
-}
-.g4{
-	position: relative;
-left: 64%;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 1.8vw;
-line-height: 1vw;
-}
-
-.g5{
-
-position: relative;
-left: 330%;
-border: 0.3vw solid red;
-padding: 15% 6%;
-
-color: #FF0101;
-font-family: Roboto;
-font-style: normal;
-font-size: 1.5vw;
-line-height: 1vw;
-font-weight: bold;
-}
-.g5:hover {
-text-decoration: none;
-	color: #FFFFFF;
-	background: #ff3125;
-	padding: 15% 6%;
-
-}
 .coffe{
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -577,7 +400,7 @@ coffe_wrt2.2{
 	height:25vw;
 	width:auto;
 }
-.oblako{
+.img_oblako{
 	position: relative;
 	margin-top:2.6%;
 	margin-left: 3%;
@@ -585,7 +408,7 @@ coffe_wrt2.2{
 	height:21vw;
 	width:auto;
 }
-.oblako_1{
+.oblako_text_1{
 	position: relative;
     margin-left: 9%;
     top: -19vw;
@@ -604,7 +427,7 @@ coffe_wrt2.2{
 
     mix-blend-mode: normal;
 }
-.oblako_2{
+.oblako_text_2{
 	position: relative;
     margin-left: 8%;
     margin-top: -30%;
@@ -661,7 +484,7 @@ coffe_wrt2.2{
 	height:30vw;
 	width:auto;
 }
-.coffe_text_1{
+.coffe_text{
 	position: relative;
     left: 30%;
     top:  8%;
@@ -674,7 +497,7 @@ coffe_wrt2.2{
 
     color: #000000;
 }
-.coffe_text_2{
+.coffe_text_1{
 position: relative;
 left: 30%;
 margin-top: 15%;
@@ -694,7 +517,7 @@ line-height: 1vw;
 
 opacity: 0.8;
 }
-.coffe_text_3{
+.coffe_text_2{
 	position: relative;
 left: 30%;
 width: 30vw;
@@ -713,7 +536,7 @@ line-height: 1vw;
 
 opacity: 0.8;
 }
-.coffe_text_4{
+.coffe_text_3{
 	position: relative;
 left: 20%;
 width: 35vw;
@@ -732,7 +555,7 @@ line-height: 1vw;
 
 opacity: 0.8;
 }
-.coffe_text5{
+.coffe_text_4{
 	
 	position: relative;
     left: -1%;
@@ -749,7 +572,7 @@ font-size: 1.3vw;
 line-height: 1vw;
 }
 
-.Palka_1{
+.coffe_border_img{
 	position: relative;
 	top: 18%;
 	height:20vw;
@@ -886,47 +709,47 @@ line-height: 1vw;
 color: #FFFFFF;
 }
 
-.Group1{
+.Group_VK{
     position: absolute;
 	left:50%;
     height: 3vw;
     width: auto;
     transition: all 1s ease 0s;
 }
-.Group1:hover{
+.Group_VK:hover{
 	transform: scale3d(1.2,1.2,1);
 }
 
-.Group2{
+.Group_facebook{
 	position: absolute;
 	left:60%;
     height: 3vw;
     width: auto;
     transition: all 1s ease 0s;
 }
-.Group2:hover{
+.Group_facebook:hover{
 	transform: scale3d(1.2,1.2,1);
 }
 
-.Group3{
+.Group_instagram{
 	position: absolute;
 	left:70%;
     height: 3vw;
     width: auto;
     transition: all 1s ease 0s;
 }
-.Group3:hover{
+.Group_instagram:hover{
 	transform: scale3d(1.2,1.2,1);
 }
 
-.Group4{
+.Group_YouTube{
 	position: absolute;
 	left:80%;
     height: 3vw;
     width: auto;
     transition: all 1s ease 0s;
 }
-.Group4:hover{
+.Group_YouTube:hover{
 	transform: scale3d(1.2,1.2,1);
 }
 
@@ -960,116 +783,57 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 880px) {
-	body, html {
+    body, html {
 	overflow-x: hidden;
-}
+    }
 
-    .text_7{
+    .title_concerts {
     font-size: 3.5vw;
     line-height: 1w;
     }
-    .text_8{
+
+    .title_month {
      font-size: 3vw;
      line-height: 1vw;
     }
-    .b4{
+    
+    .b4 {
     display:none;
     }
-    .p4{
-    display:none;
-    }
-    .g4{
-    display:none;
-    }
+    
     .b1{
     font-size: 5.2vw;
     left: 70%;
-
     }
-    .p1{
-    font-size: 5.2vw;
-    left: 70%;
 
-    }
-    .g1{
-    font-size: 5.2vw;
-    left: 70%;
-
-    }
     .b2{
     font-size: 2.9vw;
     line-height: 1vw;
     left: 97%;
     }
-    .p2{
-    font-size: 2.9vw;
-    line-height: 1vw;
-    left: 97%;
-    }
-    .g2{
-    font-size: 2.9vw;
-    line-height: 1vw;
-    left: 97%;
-    }
+
     .data_logo_2{
     display:none;
     }
-    .data_logo_2_2{
-    display:none;
-    }
-    .data_logo_2_2_2{
-    display:none;
-    }
+    
      .data_logo_1{
     height: 4.4vw;
 	width:auto;
 	left: 137%;
     }
-    .data_logo_1_1{
-    height: 4.4vw;
-	width:auto;
-	left: 137%;
-    }
-    .data_logo_1_1_1{
-    height: 4.4vw;
-	width:auto;
-	left: 137%;
-    }
+    
     .b3{
     font-size: 2.6vw;
     line-height: 1vw;
     left: 165%;
     }
-    .p3{
-    font-size: 2.6vw;
-    line-height: 1vw;
-    left: 165%;
-    }
-    .g3{
-     font-size: 2.6vw;
-     line-height: 1vw;
-     left: 165%;
-     }
+    
      .b5{
      position: relative;
      left: 415%;
      font-size: 1.8vw;
      }
-     .p5{
-     position: relative;
-     left: 415%;
-     font-size: 1.8vw;
-     }
-     .g5{
-     position: relative;
-     left: 415%;
-     font-size: 1.8vw;
-     }
-     .coffe_info{
-     display:grid;
-     grid-template-columns: 100% 0%;
 
-     }
      .coffe_info{
      display:grid;
      grid-template-columns: 100% 0%;
@@ -1078,7 +842,7 @@ color: #FFFFFF;
      .coffe_info_1{
     display:none;
     }
-    .Palka_1{
+    .coffe_border_img{
     display:none;
     }
     .coffe_text_5{
@@ -1125,25 +889,25 @@ color: #FFFFFF;
    .footer_2{
    display:none;
 }
-    .Group1{
+    .Group_VK{
 	left:17%;
     height: 4vw;
     width: auto;
     top:1vh;
   }
-.Group2{
+.Group_facebook{
 	left:37%;
     height: 4vw;
     width: auto;
     top:1vh;
   }
-  .Group3{
+  .Group_instagram{
 	left:57%;
     height: 4vw;
     width: auto;
     top:1vh;
   }
-  .Group4{
+  .Group_YouTube{
 	left:77%;
     height: 4vw;
     width: auto;
@@ -1154,9 +918,9 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1800px) {
-	body,html {
+    body, html {
 	overflow-x: hidden;
-}
+    }
 	.container_1{
 	display:none;
     }
@@ -1167,7 +931,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1440px) {
-	body, html {
+body, html {
 	overflow-x: hidden;
 }
 
@@ -1182,7 +946,8 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 1190px) {
-	body, html {
+body, html {
+	margin: 0;
 	overflow-x: hidden;
 }
 .coffe_text_9{  
@@ -1192,23 +957,23 @@ color: #FFFFFF;
 	position: relative;   
     top: -22%;
 }
-.Group1{
+.Group_VK{
 
     height: 3vw;
     width: auto;
     top:1vh;
   }
-.Group2{
+.Group_facebook{
     height: 3vw;
     width: auto;
     top:0.9vh;
   }
-  .Group3{
+  .Group_instagram{
     height: 3vw;
     width: auto;
     top:0.9vh;
   }
-  .Group4{
+  .Group_YouTube{
     height: 3vw;
     width: auto;
     top:0.9vh;
@@ -1217,7 +982,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 935px) {
-	body, html {
+body, html {
 	overflow-x: hidden;
 }
 .coffe_text_9{  
@@ -1242,26 +1007,26 @@ color: #FFFFFF;
 
 }
 @media screen and (max-width: 520px) {
-	body, html {
+body, html {
 	overflow-x: hidden;
 }
- .text1{
+ .text_concert{
   font-size: 1.3vw;
   line-height: 1.7vw;
 }
-.text2{
+.text_group{
   font-size: 1.3vw;
   line-height: 1.7vw;
 }
-.text3{
+.text_merch{
   font-size: 1.3vw;
   line-height: 1.7vw;
 }
-.text4{
+.text_help{
   font-size: 1.3vw;
   line-height: 1.7vw;
 }
- .oblako_2{
+ .oblako_text_2{
  margin-top:-40%;
 }
 .coffe_text_6{
@@ -1286,25 +1051,25 @@ color: #FFFFFF;
     font-size: 2vw;
     line-height: 1vw;
 }
- .Group1{
+ .Group_VK{
 	left:17%;
     height: 3vw;
     width: auto;
     top:0.8vh;
   }
-.Group2{
+.Group_facebook{
 	left:37%;
     height: 3vw;
     width: auto;
     top:0.8vh;
   }
-  .Group3{
+  .Group_instagram{
 	left:57%;
     height: 3vw;
     width: auto;
     top:0.8vh;
   }
-  .Group4{
+  .Group_YouTube{
 	left:77%;
     height: 3vw;
     width: auto;
@@ -1312,4 +1077,3 @@ color: #FFFFFF;
   }
 
 }    
-
