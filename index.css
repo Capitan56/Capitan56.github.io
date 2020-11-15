@@ -787,7 +787,55 @@ color: #FFFFFF;
     body, html {
 	overflow-x: hidden;
     }
+    .concert_button{
+    font-size: 2.1vw;
+    line-height: 1.3vw;
+    margin-left:13%;
+    }
+    .group_button{
+    font-size: 2.1vw;
+    line-height: 1.3vw;
+    margin-left:24%;
+    }
+    .merch_button{
+    font-size: 2.1vw;
+    line-height: 1.3vw;
+    margin-left:29%;
+    }
+    .help_button{
+    font-size: 2.1vw;
+    line-height: 1.3vw;
+    margin-left:20%;
+    }
+    .text_info_group{
+	padding-right: 1%;
+	padding-left: 1%;
+	font-size: 1.5vw;
+    }
+    .oblako_text_1{
+	position: relative;
+    margin-left: 9%;
+    top: -19vw;
 
+    font-family: 'Piazzolla', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9vw;
+    line-height: 1.9vw;
+    }
+    .oblako_text_2{
+	position: relative;
+    margin-left: 8%;
+    margin-top: -34%;
+
+    font-family: 'Piazzolla', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7vw;
+    line-height: 1.6vw;
+    padding-right:10%;
+    }
+    
     .title_concerts {
     font-size: 3.5vw;
     line-height: 1w;
@@ -1012,20 +1060,20 @@ body, html {
 	overflow-x: hidden;
 }
  .concert_button{
-  font-size: 1.3vw;
-  line-height: 1.7vw;
+  font-size: 1.9vw;
+  line-height: 1.3vw;
 }
 .group_button{
-  font-size: 1.3vw;
-  line-height: 1.7vw;
+  font-size: 1.9vw;
+  line-height: 1.3vw;
 }
 .merch_button{
-  font-size: 1.3vw;
-  line-height: 1.7vw;
+ font-size: 1.9vw;
+  line-height: 1.3vw;
 }
 .help_button{
-  font-size: 1.3vw;
-  line-height: 1.7vw;
+  font-size: 1.9vw;
+  line-height: 1.3vw;
 }
  .oblako_text_2{
  margin-top:-40%;
